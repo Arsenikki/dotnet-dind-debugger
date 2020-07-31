@@ -1,7 +1,8 @@
 # dotnet-dind-debugger
 Two methods for debugging .NET core containers running in Docker-in-Docker environment using Visual Studio or Visual Studio Code.   
 
-![alt text](https://blog.nestybox.com/assets/dind-privileged.png)
+![alt text](https://blog.nestybox.com/assets/dind-privileged.png)'
+
 Source: https://blog.nestybox.com/2019/09/14/dind.html
 ## Simple Setup
 
