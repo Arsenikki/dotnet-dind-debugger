@@ -2,6 +2,7 @@
 Two methods for debugging .NET core containers running in Docker-in-Docker environment using Visual Studio or Visual Studio Code.   
 
 ![alt text](https://blog.nestybox.com/assets/dind-privileged.png)
+Source: https://blog.nestybox.com/2019/09/14/dind.html
 ## Simple Setup
 
 This is more standard approach for attaching debugger to a .NET container as it uses configuration as is. However, the configuration is made to work with nested virtualization by executing first to the outer Dockerl layer and then the inner, where the debugger is started.  
@@ -35,3 +36,5 @@ Currently the ```<enter_outer_container_name_here>``` and ```<enter_inner_contai
 ```
 
 ## Advanced Setup
+
+TBD
