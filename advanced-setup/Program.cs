@@ -53,9 +53,6 @@ namespace DebuggerLauncher
                 Thread.Sleep(1000);
                 if (stdout.Equals("'true'"))
                 {
-                    // Create new configuration and return correct path
-                    var debugConfigurationPath = CreateConfiguration();
-
                     // Set path for debugger configuration
                     var pathToFolder = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName;
                     var pathToConfigFile = Path.Combine(pathToDebuggerLauncher, "debuggerConfig.json");
