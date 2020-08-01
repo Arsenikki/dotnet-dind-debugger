@@ -38,4 +38,4 @@ Currently the ```<enter_outer_container_name_here>``` and ```<enter_inner_contai
 
 ## Advanced Setup
 
-TBD
+This is version includes several improvements over the simple setup and makes debugging experience similar to regular workloads in Visual Studio. For example, automatically attaching and detaching into the inner container, and rebuilding the inner container on a new run when code changes are made. 
